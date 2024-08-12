@@ -1,1 +1,39 @@
-Descrição dos Exercícios:
+>> Exercício 1 - Um programa para ler um número inteiro do usuário e exibir o maior número primo
+que seja menor do que o número digitado. 
+
+>> Exercício 2 - Crie uma função capaz de criar a transposta de uma matriz.
+
+>> Exercício 3 - Implementar uma função para calcular a Paridade com um teste de paridade de bits, onde recebe como parâmetro um byte e retorna o valor do bit reduntante.
+
+>> Exercídio 4 - Escreva uma função que recebe como
+parâmetros um vetor de inteiros positivos, o número de elementos dele, e ponteiros para
+argumentos de saída, nos quais devem ser armazenados os valores máximo e mínimo do
+vetor, assim como a média dos valores. O protótipo da função deve ser:
+void minMaxMedio (int* vetor, int tam, int* min, int* max, double* medio);
+
+>> Exercício 5 - Faça um programa que:
+a. leia N valores inteiros e os armazene em um array. Listar o array com as referidas
+posições de armazenamento de cada valor.
+Lista compilada pelo Prof. Robson R. Linhares – DAINF/CEFET-PR/UTFPR
+b. ofereça uma função de pesquisa onde dado um valor inteiro qualquer de entrada
+retornar a posição deste valor dentro do array, e caso este valor não esteja presente
+no vetor retornar –1.
+c. ofereça uma função que troque os valores contido no array pela seguinte política:
+cada elemento i dentro do array será substituído pela soma de todos os (i-1)
+elementos mais o elemento i. Por exemplo, dado um array [1; 2; 3; 4; 5] após a
+aplicação da função teríamos esse array preenchido com os seguintes valores [1; 3;
+6; 10; 15]. Para esta tarefa utilize um array auxiliar. 
+
+>> Exercício 6 - Em jogos de tempo real, o tempo é dividido
+em game ticks - intervalos de tempo entre um evento e outro. Em jogos como os da série
+Street Fighter, quando o jogador faz um movimento de pulo, o computador calcula a
+posição do personagem a cada game tick, seguindo uma trajetória parabólica.
+Lista compilada pelo Prof. Robson R. Linhares – DAINF/CEFET-PR/UTFPR
+a. Escreva uma função com o protótipo abaixo:
+int jumpPosition (double v0, double theta, double t, double* x, double* y);
+A função deve calcular a posição do personagem no tempo t, considerando que ele segue uma
+trajetória parabólica*, com velocidade inicial v0 e ângulo theta, dado em graus. Suponha que a
+aceleração da gravidade é 9.8m/s2. Os parâmetros x e y são usados como saídas, para indicar a
+posição do personagem. Esta posição é dada com relação à posição inicial (i.e. considere que a
+posição inicial é em x=0 e y=0). A função deve retornar 0 se o personagem já tiver retornado ao
+solo no tempo t, ou 1 do contrário. 
